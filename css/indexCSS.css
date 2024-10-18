@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+.bod{
+    background: #000;
+}
+.headerBox{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/08/perifericos-gaming-3860923.jpg?tf=3840x') ;
+    background-size: cover;    
+    background-attachment: fixed;
+
+}
+
+
+
+.box {
+    padding: 10px;
+    margin: 5px;  
+}
+
+
+.Nombre{
+    padding: 70px;
+    color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+.logo{
+margin: 0;
+padding: 0;
+border-radius: 100%;
+}
+
+li{
+    padding: 10px;
+    padding-left: 30px;
+    font-size:  20px;
+}
+.siz{
+    font-size: 70px;
+}
+
+.containerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.info{
+    width: 47%;
+    padding: 20px;
+    background-color: #1a2a68;
+    margin: 10px;
+    color: black;
+    border: 5px solid #dc72f6;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0px #dc72f6;
+    color: #fff;
+    font-size: 20px;
+}
+
+div h2{
+    color: aqua;
+    margin: auto;
+    border-bottom: 5px solid;
+    width: max-content;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.SepBox{
+    
+    width: 100%;
+    height: 300px;
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-colorido-controladores-videojuegos-palabras-juego_662214-35244.jpg') ;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    color: white;
+}
+.DifBox{
+    
+    width: 100%;
+    height: 300px;
+    background:  #000a;
+    position: absolute;
+}
+
+.containerProd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #dc72f6;
+    border-radius: 10px;
+}
+.card{
+    margin: 20px;
+    flex: calc(100vw /5);
+    padding: 1rem;
+    border: #000;
+    box-shadow: 0 0 10px 10px #1a2a68;
+}
+
+.produ{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 100px;
+}
