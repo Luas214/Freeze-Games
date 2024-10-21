@@ -3,7 +3,8 @@
 }
 .bod{
     
-    background-image: url('https://img.freepik.com/vector-premium/patron-costuras-colorido-flores-puntos-sobre-fondo-blanco_150234-101833.jpg?semt=ais_hybrid') ;
+    background: #000;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/212/900/original/4k-abstract-background-color-neon-gradient-abstract-overlays-bg-video.jpg');
     background-size: cover;    
     background-attachment: fixed;
 }
@@ -36,31 +37,22 @@ li{
     padding-left: 30px;
     font-size:  20px;
 }
-.containerPreg{
-    background-color: #000;
-    margin: auto;
-    width: 90%;
-    height: auto;
-    margin-top: 50px;
+
+.blog{
+    background-color: #000b;
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff;
     color: #fff;
-    padding: 30px;
-    box-sizing: border-box;
+    margin: 90px;
     border-radius: 25px;
-    box-shadow: 0 0 30px 10px #ff00ff;
-    margin-bottom: 90px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
 }
 
-h1{
-text-align: center;
+.blog h1{
+    text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+    text-align: center;
 }
-p{
-    font-size: 20px;
-}
-
-.preg{
-    text-decoration: none;
-    list-style: none;
-}
-li{
-    list-style: none;
+.blog p{
+    font-size: 35px;
 }
