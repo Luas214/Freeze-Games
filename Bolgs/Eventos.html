@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="BlogCSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Blog</title>
 </head>
-<body>
+<body class="bod">
+    <div class="headerBox containe">
+        <img  src="../img/Logo.jpg" class="logo img-fluid" height="300px" alt="">
+        <p class="Nombre box">Freeze Games Blog</p>
+    </div>
     
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark text-white" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/Logo.jpg" class="img-fluid logo box" style="width: 100px; height: auto;" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html#Servicios-Productos">Sobre Nosotros
+                            <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#Servicios-Productos">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#Productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#contacto">Contacto </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../PreguntasFrecuentes.html">Preguntas Frecuentes </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../AcercaDe.html">Acerca de </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <button class="btn btn-primary m-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" style="position: fixed; font-size: 28px; padding: 20px 20px;">></button>
+    <div class="offcanvas offcanvas-start bg-dark text-white" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel" style="font-size: 40px;">Nuestros Blogs</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="ProductosUsados.html" class="preg text-white">Productos de Segunda Mano</a></li>
+                <li><a href="#" class="preg text-white">Proximos Lanzamientos</a></li>
+                <li><a href="Eventos.html" class="preg text-white">Eventos</a></li>
+            </ul>
+        </div>   
+    </div>
+    <h1 class="titulo">Eventos</h1>
+
+    <div class="blog">
+        <h1>Torneo de Super Smash Bros Ultimate</h1>
+        <p><b>Fecha: </b>15 de noviembre de 2024</p>
+        <p><b>Hora: </b>2:00pm</p>
+        <p><b>Ubicacion: </b>Oxigeno PLayground</p>
+        <p>¿Eres fan de los combates épicos? ¡Demuestra tus habilidades en nuestro torneo de Super Smash Bros Ultimate! Contaremos con emocionantes premios para los ganadores, desde tarjetas de regalo hasta mercancía exclusiva de videojuegos. Este evento es para jugadores de todos los niveles, así que trae a tus amigos y prepárate para la acción.</p>
+        <p>Inscripciones abiertas hasta el 10 de noviembre. ¡No te lo pierdas!</p>
+        <img src="../img/torneo.jpg" class="blog-image" alt="">
+    </div>
+
+    <div class="blog">
+        <h1>Lanzamiento exclusivo de PlayStation 5 Pro</h1>
+        <p><b>Fecha: </b>12 de enero de 2025</p>
+        <p><b>Hora: </b>11:00 a.m.>
+        <p><b>Ubicacion: </b>Oxigeno PLayground</p>
+        <p>Sé de los primeros en Costa Rica en probar la tan esperada PlayStation 5 Pro. Durante este evento de lanzamiento, podrás disfrutar de demostraciones en vivo de los gráficos y el rendimiento mejorado de esta nueva consola. Habrá un espacio especial para que los fans de PlayStation se reúnan, jueguen y compartan sus impresiones.</p>
+        <p>¡Reserva tu entrada para asegurar tu lugar en este evento exclusivo!</p>
+        <img src="../img/ps5pro.webp" class="blog-image" alt="">
+    </div>
+
+    <div class="blog">
+        <h1>Presentación y Demo de Consolas de Segunda Mano</h1>
+        <p><b>Fecha: </b>10 de diciembre de 2024</p>
+        <p><b>Hora: </b>5:00 p.m.</p>
+        <p><b>Ubicacion: </b>Oxigeno PLayground</p>
+        <p>Si estás interesado en adquirir una consola de segunda mano en perfectas condiciones, este es tu evento. Ven a conocer nuestro catálogo de consolas usadas, con demostraciones en vivo para que puedas comprobar su calidad. Tendremos descuentos exclusivos durante el evento.</p>
+        <p>¡Aprovecha la oportunidad de llevarte una consola a un precio increíble!</p>
+        <img src="../img/retro.webp" class="blog-image" alt="">
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="contacto">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección: Centro Comercial Oxígenon, San Francisco</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +506 7279 4520</p>
+                    <p><i class="fas fa-envelope"></i> Correo: saulvilla214@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../FormContacto.html" class="text-white">Contáctenos</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="../PreguntasFrecuentes.html" class="text-white">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="container text-center mt-4">
+                <p>© 2024 Freeze Games. Todos los derechos reservados.</p>
+            </div>
+        </div>
+      </footer>
+
 </body>
 </html>

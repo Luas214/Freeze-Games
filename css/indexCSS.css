@@ -27,7 +27,7 @@
     color: aqua;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
 }
 .logo{
@@ -117,3 +117,33 @@ div h2{
     padding-top: 80px;
     font-size: 100px;
 }
+
+
+.styled-video {
+    /* Borde redondeado */
+    border-radius: 15px;
+    
+    /* Sombra para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    /* Agregar un borde de color */
+    border: 3px solid #3498db;
+    
+    /* Ajuste del tamaño en dispositivos pequeños */
+    max-width: 100%;
+    height: auto;
+    
+    /* Añadir margen para separación */
+    margin: 20px auto;
+    
+    /* Hacer que el video esté centrado */
+    display: block;
+    
+    /* Animación para el hover */
+    transition: transform 0.3s ease;
+  }
+  
+  .styled-video:hover {
+    /* Escala del video cuando se pase el cursor por encima */
+    transform: scale(1.05);
+  }
